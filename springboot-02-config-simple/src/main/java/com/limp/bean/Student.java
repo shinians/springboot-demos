@@ -1,6 +1,8 @@
 package com.limp.bean;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -14,31 +16,21 @@ import java.util.Map;
  * @website： www.shinians.com
  */
 
-
 /**
- * 将配置文件中配置的每一个属性的值，映射到这个组件中
- * @ConfigurationProperties：告诉SpringBoot将本类中的所有属性和配置文件中相关的配置进行绑定；
- *      prefix = "student"：配置文件中哪个下面的所有属性进行一一映射
- *
- * 只有这个组件是容器中的组件，才能容器提供的@ConfigurationProperties功能；
- *  @ConfigurationProperties(prefix = "student")默认从全局配置文件中获取值；
- *
+ * Spring Configuration 和 Component 区别（精简汇总版）
+ * 参考：https://www.toutiao.com/i6636541118316020231/
  */
+
+//@Configuration
 @Component
 @ConfigurationProperties(prefix = "student")
+
 public class Student {
 
-    //lastName必须是邮箱格式
-    // @Email
-    //@Value("${person.last-name}")
     private String lastName;
-    //@Value("#{11*2}")
     private Integer age;
-    //@Value("true")
     private Boolean boss;
-
     private Date birth;
-    //@Value("${person.maps}")
     private Map<String,Object> maps;
     private List<Object> lists;
     private Book  book;
@@ -117,3 +109,4 @@ public class Student {
         this.book = book;
     }
 }
+

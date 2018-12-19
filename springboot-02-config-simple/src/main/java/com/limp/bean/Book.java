@@ -1,7 +1,7 @@
 package com.limp.bean;
 
 /**
- * @intro ：
+ * @intro ： Spring Boot读取配置文件自定义信息
  * @auth ： shinians
  * @time ： 2018/12/19 0:17
  * @website： www.shinians.com
