@@ -6,6 +6,7 @@
 
 `2.springboot-02-config-simple ：SpringBoot专栏:配置文件注入知识点汇总（第二讲）`
      
+     文章链接：https://www.toutiao.com/i6636673857103069703/
      主要讲解配置相关知识点
      
      1.Spring Configuration 和 Component 区别（精简汇总版）
