@@ -11,3 +11,9 @@
      
      1.Spring Configuration 和 Component 区别（精简汇总版）
       参考：https://www.toutiao.com/i6636541118316020231/
+      
+      2.SpringBoot专栏:SpringBoot自动配置原理以及细节（第三讲）
+      https://www.toutiao.com/i6636752097251426830/
+      
+     3. SpringBoot专栏：配置文件终结篇 知识点汇总（第四讲）
+      https://www.toutiao.com/i6636750705581359629/
