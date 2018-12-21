@@ -31,16 +31,12 @@ public class Teacher {
     private Boolean boss;
 
     private Date birth;
-//    @Value("${teacher.maps}")
+//    @Value("${teacher.maps}")   特别注意此时是不支持复杂类型的
     private Map<String,Object> maps;
     @Value("${teacher.lists}")
     private List<Object> lists;
     private Book  book;
 
-    /**
-     * 特别注意！！特别注意！！：如果通过前缀的方式注入，一定要有get set 方法
-     * @return
-     */
 
     @Override
     public String toString() {
