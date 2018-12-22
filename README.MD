@@ -15,9 +15,9 @@
       2.SpringBoot专栏:SpringBoot自动配置原理以及细节（第三讲）
       https://www.toutiao.com/i6636752097251426830/
       
-     3. SpringBoot专栏：配置文件终结篇 知识点汇总（第四讲）
+      3.SpringBoot专栏：配置文件终结篇 知识点汇总（第四讲）
       https://www.toutiao.com/i6636750705581359629/
 
-###  3. SpringBoot专栏：日志配置那些事 log4j_logback_slf4j（第5讲）
+` 3.springboot-03-logging： SpringBoot专栏_日志配置那些事 log4j_logback_slf4j（第5讲）`
 * 文章链接: https://www.toutiao.com/i6637291291912700420/      
       
