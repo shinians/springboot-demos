@@ -23,7 +23,7 @@
      
 ``   4.springboot-04-web web开发相关知识``
   
-   *参考 limp-framework 项目地址: https://github.com/shinians/limp-framework
+   * 参考 limp-framework 项目地址: https://github.com/shinians/limp-framework
      
      1.SpringBoot专栏-如何快速配置i18n国际化，图文结合（第六讲）
      https://www.toutiao.com/i6637743787005182468/   
