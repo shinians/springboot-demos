@@ -21,10 +21,17 @@
 ` 3.springboot-03-logging： SpringBoot专栏_日志配置那些事 log4j_logback_slf4j（第5讲）`
 * 文章链接: https://www.toutiao.com/i6637291291912700420/  
      
-  1.SpringBoot专栏-如何快速配置i18n国际化，图文结合（第六讲）
+ `  4.springboot-04-web web开发相关知识 `
+       
+  4.1 SpringBoot专栏-如何快速配置i18n国际化，图文结合（第六讲）
   https://www.toutiao.com/i6637743787005182468/   
   
-  2.SpringBoot专栏：模板引擎Thymeleaf使用实战，图文结合（第7讲）
+  4.2 SpringBoot专栏：模板引擎Thymeleaf使用实战，图文结合（第7讲）
   https://www.toutiao.com/i6637769941778956814/ 
   
-  SpringBoot专栏-集成mybatis以及restful风格样例演示（第8讲）
+  4.3 SpringBoot专栏-集成mybatis以及restful风格样例演示（第8讲）
+  https://www.toutiao.com/i6637864759586718221/
+  
+  `5 springboot-05-test-starter 自定义starter 很重要`
+  
+  
