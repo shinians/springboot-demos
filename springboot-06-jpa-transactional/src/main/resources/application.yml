@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://115.28.166.113:3306/datacenter?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: #####
+
+    jpa:
+      properties:
+        hibernate:
+          ddl-auto: update
+          format_sql: true #格式化sql语句
+          show-sql: true #控制台是否打印
+logging:
+  level:
+    com.*: debug
+    org.*: debug
+    spring.*: debug
+
+
