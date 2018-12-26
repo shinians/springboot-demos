@@ -34,7 +34,7 @@
      3.SpringBoot专栏-集成mybatis以及restful风格样例演示（第8讲）
      https://www.toutiao.com/i6637864759586718221/
   
-  `5 springboot-05-test-starter SpringBoot专栏：自定义starters，编写插件之利器`
+  `5 springboot-05-test-starter SpringBoot专栏：自定义starters，编写插件之利器（第9讲）`
   
    * 文章链接: https://www.toutiao.com/i6638210718871060995/
    
