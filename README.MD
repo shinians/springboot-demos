@@ -34,6 +34,9 @@
      3.SpringBoot专栏-集成mybatis以及restful风格样例演示（第8讲）
      https://www.toutiao.com/i6637864759586718221/
   
-  `5 springboot-05-test-starter 自定义starter 很重要`
+  `5 springboot-05-test-starter SpringBoot专栏：自定义starters，编写插件之利器`
   
-  
+   * 文章链接: https://www.toutiao.com/i6638210718871060995/
+   
+   `6 springboot-06-jpa-transactional SpringBoot专栏：整合JPA并开启声明式事务（第10讲） `
+   * 文章链接: https://www.toutiao.com/i6638843483614347780/
