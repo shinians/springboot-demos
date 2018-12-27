@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.limp.listerner.HelloApplicationContextInitializer
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.limp.listerner.HelloSpringApplicationRunListener
