@@ -42,7 +42,8 @@
    * 文章链接: https://www.toutiao.com/i6638843483614347780/
    
   ` 7 SpringBoot专栏：巧妙运用SpringBoot的事件监听机制，原来这么重要..（第11讲）`
-       * 文章链接: https://www.toutiao.com/i6639691322238173700/
+       
+   * 文章链接: https://www.toutiao.com/i6639691322238173700/
     
   `   8.springboot-08-redis Redis缓存集成篇，扫坑`
    * 文章链接 ##
