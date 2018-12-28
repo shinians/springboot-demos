@@ -41,5 +41,13 @@
    `6 springboot-06-jpa-transactional SpringBoot专栏：整合JPA并开启声明式事务（第10讲） `
    * 文章链接: https://www.toutiao.com/i6638843483614347780/
    
-  ` 7 SpringBoot专栏：巧妙运用SpringBoot的事件监听机制，原来这么重要..`
-     * 文章链接: ...
+  ` 7 SpringBoot专栏：巧妙运用SpringBoot的事件监听机制，原来这么重要..（第11讲）`
+     * 文章链接: https://www.toutiao.com/i6639691322238173700/
+    
+  `   8.springboot-08-redis Redis缓存集成篇，扫坑`
+  * 文章链接
+      1.SpringBoot专栏：集成缓存Redis，其实很简单？扫坑篇……（第12讲）
+      https://www.toutiao.com/i6639898368304742916/
+      
+      2. SpringBoot专栏：Redis缓存集成高级篇，扫了一天坑（第13讲）
+      https://www.toutiao.com/i6640003656995308045/
