@@ -1,0 +1,16 @@
+spring:
+#redis\u914D\u7F6E
+  redis:
+    host: 115.28.166.113
+    port: 8085
+    password: cis
+      # \u8FDE\u63A5\u8D85\u65F6\u65F6\u95F4\uFF08\u6BEB\u79D2\uFF09
+    timeout: 18000
+    database: 0
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1
+        min-idle: 0
+
