@@ -55,3 +55,13 @@
       https://www.toutiao.com/i6640003656995308045/
       
 `  9. springboot-09-tasks   定时任务详解&并发编程 `
+* 文章链接  
+       1.SpringBoot专栏：集成定时ScheduledTasks任务，刷新概念了 14讲 
+       https://www.toutiao.com/i6640264248788255239/
+       2.SpringBoot专栏：动态定时任务与并发编程，简单玩到复杂 15讲
+       https://www.toutiao.com/i6640410111317639684/
+
+` 10.springboot-10-email-async 异步调用融合线程池做个不一样教程`
+* 文章链接 
+   1.SpringBoot专栏 异步调用结合线程池玩出新花样，做不一样的教程
+   https://www.toutiao.com/i6640710478022574606/
