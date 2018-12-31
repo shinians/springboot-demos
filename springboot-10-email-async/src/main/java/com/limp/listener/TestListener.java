@@ -16,11 +16,11 @@ import java.util.concurrent.Future;
  * @time ： 2018/12/30 13:37
  * @website： www.shinians.com
  */
-@Component
+//@Component
 public class TestListener implements CommandLineRunner {
     private static final Logger logger = LoggerFactory.getLogger(CommandLineRunner.class);
 
-    @Autowired
+//    @Autowired  //todo 测试需要将此注解和@Component注释去掉
     private final SleepService sleepService;
 
     public TestListener(SleepService sleepService) {
