@@ -11,5 +11,16 @@
         </table>
     </form>
 </div>
+<hr/>
+多文件上传
+<div>
+    <form method="POST" enctype="multipart/form-data" action="/uploads">
+        <table>
+            <tr><td>文件1 :</td><td><input type="file" name="file" /></td></tr>
+            <tr><td>文件2:</td><td><input type="file" name="file" /></td></tr>
+            <tr><td></td><td><input type="submit" value="批量上传" /></td></tr>
+        </table>
+    </form>
+</div>
 </body>
 </html>
