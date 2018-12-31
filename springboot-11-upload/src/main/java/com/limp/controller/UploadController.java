@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
@@ -40,7 +41,29 @@ public class UploadController {
                                    RedirectAttributes redirectAttributes) {
         uploadService.storeFile(file);
         redirectAttributes.addFlashAttribute("message",
-                "上传成功 " + file.getOriginalFilename() );
+                "但文件：上传成功 " + file.getOriginalFilename() );
         return "redirect:/";
     }
+
+    /**
+     *  批量上传
+     * @param file
+     * @return
+     * @throws Exception
+     */
+    @PostMapping("/uploads")
+//    @ResponseBody
+    public String bacthFileUpload(MultipartFile[] file,RedirectAttributes redirectAttribute) throws Exception {
+        StringBuffer buffer = new StringBuffer();
+        for (MultipartFile multipartFile : file) {
+            uploadService.storeFile(multipartFile);
+            buffer.append(multipartFile.getOriginalFilename());
+            buffer.append(",");
+        }
+        String all = buffer.substring(0, buffer.length() - 1);
+        redirectAttribute.addFlashAttribute("message",
+                "多文件：上传成功 " + all );
+        return "redirect:/";
+    }
+
 }
