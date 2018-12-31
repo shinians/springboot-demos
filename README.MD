@@ -65,3 +65,10 @@
 * 文章链接 
    1.SpringBoot专栏 异步调用结合线程池玩出新花样，做不一样的教程
    https://www.toutiao.com/i6640710478022574606/
+  
+   2.SpringBoot专栏：如何快速集成邮件发送功能 第17讲
+   https://www.toutiao.com/i6641007654338560520/
+   
+ ` 11.springboot-11-upload 文件上传`
+ * 文章链接 
+   
