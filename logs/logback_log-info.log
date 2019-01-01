@@ -1,0 +1,224 @@
+2018-12-22 12:12:34.138 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -Starting Springboot03LoggingApplication on DESKTOP-PO54VO9 with PID 11048 (E:\githup\springboot-demos\springboot-03-logging\target\classes started by zzh in E:\githup\springboot-demos)
+2018-12-22 12:12:34.147 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -No active profile set, falling back to default profiles: default
+2018-12-22 12:12:34.262 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e8e9ed1: startup date [Sat Dec 22 12:12:34 CST 2018]; root of context hierarchy
+2018-12-22 12:12:36.540 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                -Tomcat initialized with port(s): 8080 (http)
+2018-12-22 12:12:36.562 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                -Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-22 12:12:36.592 [restartedMain] INFO  o.a.catalina.core.StandardService
+                -Starting service [Tomcat]
+2018-12-22 12:12:36.593 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                -Starting Servlet Engine: Apache Tomcat/8.5.35
+2018-12-22 12:12:36.600 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener
+                -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.3.3\bin;D:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\zzh\AppData\Local\Microsoft\WindowsApps;C:\Users\zzh\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+2018-12-22 12:12:36.816 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                -Initializing Spring embedded WebApplicationContext
+2018-12-22 12:12:36.817 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+                -Root WebApplicationContext: initialization completed in 2555 ms
+2018-12-22 12:12:36.925 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+                -Servlet dispatcherServlet mapped to [/]
+2018-12-22 12:12:36.935 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-22 12:12:36.936 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-22 12:12:36.937 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-22 12:12:36.937 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-22 12:12:37.154 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:12:37.530 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e8e9ed1: startup date [Sat Dec 22 12:12:34 CST 2018]; root of context hierarchy
+2018-12-22 12:12:37.649 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-22 12:12:37.654 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-22 12:12:37.717 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:12:37.717 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:12:38.106 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                -LiveReload server is running on port 35729
+2018-12-22 12:12:38.156 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter
+                -Registering beans for JMX exposure on startup
+2018-12-22 12:12:38.179 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                -Starting ProtocolHandler ["http-nio-8080"]
+2018-12-22 12:12:38.204 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool
+                -Using a shared selector for servlet write/read
+2018-12-22 12:12:38.256 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                -Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-22 12:12:38.262 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -Started Springboot03LoggingApplication in 4.619 seconds (JVM running for 6.104)
+2018-12-22 12:18:55.379 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -Starting Springboot03LoggingApplication on DESKTOP-PO54VO9 with PID 17772 (E:\githup\springboot-demos\springboot-03-logging\target\classes started by zzh in E:\githup\springboot-demos)
+2018-12-22 12:18:55.385 [restartedMain] DEBUG c.l.Springboot03LoggingApplication
+                -Running with Spring Boot v2.0.7.RELEASE, Spring v5.0.11.RELEASE
+2018-12-22 12:18:55.388 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -No active profile set, falling back to default profiles: default
+2018-12-22 12:18:55.465 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ac82a5c: startup date [Sat Dec 22 12:18:55 CST 2018]; root of context hierarchy
+2018-12-22 12:18:57.710 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                -Tomcat initialized with port(s): 8080 (http)
+2018-12-22 12:18:57.726 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                -Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-22 12:18:57.741 [restartedMain] INFO  o.a.catalina.core.StandardService
+                -Starting service [Tomcat]
+2018-12-22 12:18:57.741 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                -Starting Servlet Engine: Apache Tomcat/8.5.35
+2018-12-22 12:18:57.751 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener
+                -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.3.3\bin;D:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\zzh\AppData\Local\Microsoft\WindowsApps;C:\Users\zzh\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+2018-12-22 12:18:57.981 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                -Initializing Spring embedded WebApplicationContext
+2018-12-22 12:18:57.982 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+                -Root WebApplicationContext: initialization completed in 2517 ms
+2018-12-22 12:18:58.164 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+                -Servlet dispatcherServlet mapped to [/]
+2018-12-22 12:18:58.175 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-22 12:18:58.176 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-22 12:18:58.177 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-22 12:18:58.177 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-22 12:18:58.423 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:18:58.821 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@ac82a5c: startup date [Sat Dec 22 12:18:55 CST 2018]; root of context hierarchy
+2018-12-22 12:18:58.946 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-22 12:18:58.950 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-22 12:18:59.017 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:18:59.017 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:18:59.395 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                -LiveReload server is running on port 35729
+2018-12-22 12:18:59.472 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter
+                -Registering beans for JMX exposure on startup
+2018-12-22 12:18:59.503 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                -Starting ProtocolHandler ["http-nio-8080"]
+2018-12-22 12:18:59.527 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool
+                -Using a shared selector for servlet write/read
+2018-12-22 12:18:59.559 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                -Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-22 12:18:59.569 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -Started Springboot03LoggingApplication in 5.088 seconds (JVM running for 6.616)
+2018-12-22 12:22:03.503 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -Starting Springboot03LoggingApplication on DESKTOP-PO54VO9 with PID 12148 (E:\githup\springboot-demos\springboot-03-logging\target\classes started by zzh in E:\githup\springboot-demos)
+2018-12-22 12:22:03.509 [restartedMain] DEBUG c.l.Springboot03LoggingApplication
+                -Running with Spring Boot v2.0.7.RELEASE, Spring v5.0.11.RELEASE
+2018-12-22 12:22:03.512 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -No active profile set, falling back to default profiles: default
+2018-12-22 12:22:03.597 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a7bd20a: startup date [Sat Dec 22 12:22:03 CST 2018]; root of context hierarchy
+2018-12-22 12:22:05.901 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                -Tomcat initialized with port(s): 8080 (http)
+2018-12-22 12:22:05.920 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                -Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-22 12:22:05.938 [restartedMain] INFO  o.a.catalina.core.StandardService
+                -Starting service [Tomcat]
+2018-12-22 12:22:05.938 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                -Starting Servlet Engine: Apache Tomcat/8.5.35
+2018-12-22 12:22:05.946 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener
+                -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.3.3\bin;D:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\zzh\AppData\Local\Microsoft\WindowsApps;C:\Users\zzh\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+2018-12-22 12:22:06.139 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                -Initializing Spring embedded WebApplicationContext
+2018-12-22 12:22:06.140 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+                -Root WebApplicationContext: initialization completed in 2544 ms
+2018-12-22 12:22:06.260 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+                -Servlet dispatcherServlet mapped to [/]
+2018-12-22 12:22:06.265 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-22 12:22:06.265 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-22 12:22:06.266 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-22 12:22:06.266 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-22 12:22:06.531 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:22:06.907 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a7bd20a: startup date [Sat Dec 22 12:22:03 CST 2018]; root of context hierarchy
+2018-12-22 12:22:07.027 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-22 12:22:07.029 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-22 12:22:07.082 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:22:07.082 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:22:07.380 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                -LiveReload server is running on port 35729
+2018-12-22 12:22:07.437 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter
+                -Registering beans for JMX exposure on startup
+2018-12-22 12:22:07.470 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                -Starting ProtocolHandler ["http-nio-8080"]
+2018-12-22 12:22:07.498 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool
+                -Using a shared selector for servlet write/read
+2018-12-22 12:22:07.548 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                -Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-22 12:22:07.554 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -Started Springboot03LoggingApplication in 4.664 seconds (JVM running for 6.064)
+2018-12-22 12:23:20.988 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -Starting Springboot03LoggingApplication on DESKTOP-PO54VO9 with PID 2828 (E:\githup\springboot-demos\springboot-03-logging\target\classes started by zzh in E:\githup\springboot-demos)
+2018-12-22 12:23:20.994 [restartedMain] DEBUG c.l.Springboot03LoggingApplication
+                -Running with Spring Boot v2.0.7.RELEASE, Spring v5.0.11.RELEASE
+2018-12-22 12:23:20.997 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -No active profile set, falling back to default profiles: default
+2018-12-22 12:23:21.075 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext
+                -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10d4aca: startup date [Sat Dec 22 12:23:21 CST 2018]; root of context hierarchy
+2018-12-22 12:23:23.239 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                -Tomcat initialized with port(s): 8080 (http)
+2018-12-22 12:23:23.259 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                -Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-22 12:23:23.290 [restartedMain] INFO  o.a.catalina.core.StandardService
+                -Starting service [Tomcat]
+2018-12-22 12:23:23.291 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                -Starting Servlet Engine: Apache Tomcat/8.5.35
+2018-12-22 12:23:23.301 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener
+                -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.3.3\bin;D:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\zzh\AppData\Local\Microsoft\WindowsApps;C:\Users\zzh\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+2018-12-22 12:23:23.545 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                -Initializing Spring embedded WebApplicationContext
+2018-12-22 12:23:23.545 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader
+                -Root WebApplicationContext: initialization completed in 2470 ms
+2018-12-22 12:23:23.707 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean
+                -Servlet dispatcherServlet mapped to [/]
+2018-12-22 12:23:23.720 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-22 12:23:23.722 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-22 12:23:23.722 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-22 12:23:23.723 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean
+                -Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-22 12:23:23.985 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:23:24.361 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10d4aca: startup date [Sat Dec 22 12:23:21 CST 2018]; root of context hierarchy
+2018-12-22 12:23:24.441 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-22 12:23:24.445 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-22 12:23:24.491 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:23:24.492 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:23:24.733 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                -LiveReload server is running on port 35729
+2018-12-22 12:23:24.797 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter
+                -Registering beans for JMX exposure on startup
+2018-12-22 12:23:24.848 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                -Starting ProtocolHandler ["http-nio-8080"]
+2018-12-22 12:23:24.877 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool
+                -Using a shared selector for servlet write/read
+2018-12-22 12:23:24.908 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                -Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-22 12:23:24.917 [restartedMain] INFO  c.l.Springboot03LoggingApplication
+                -Started Springboot03LoggingApplication in 4.54 seconds (JVM running for 5.961)
+2018-12-22 12:23:24.922 [restartedMain] DEBUG c.l.Springboot03LoggingApplication
+                -Æô¶¯³É¹¦

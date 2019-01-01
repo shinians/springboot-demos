@@ -1,0 +1,128 @@
+2018-12-22 12:13:03.614 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.limp.Springboot03LoggingApplicationTests], using SpringBootContextLoader
+2018-12-22 12:13:03.634 [main] INFO  o.s.t.c.s.AbstractContextLoader
+                -Could not detect default resource locations for test class [com.limp.Springboot03LoggingApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-22 12:13:03.636 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                -Could not detect default configuration classes for test class [com.limp.Springboot03LoggingApplicationTests]: Springboot03LoggingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-22 12:13:04.008 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Found @SpringBootConfiguration com.limp.Springboot03LoggingApplication for test class com.limp.Springboot03LoggingApplicationTests
+2018-12-22 12:13:04.346 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-22 12:13:04.373 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@57abad67, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@550a1967, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a640157, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52851b44, org.springframework.test.context.support.DirtiesContextTestExecutionListener@584f54e6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d8bafa9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@576f63f6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2dca0d64, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@f80945f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ff684e1]
+2018-12-22 12:13:04.970 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -Starting Springboot03LoggingApplicationTests on DESKTOP-PO54VO9 with PID 2232 (started by zzh in E:\githup\springboot-demos\springboot-03-logging)
+2018-12-22 12:13:04.972 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -No active profile set, falling back to default profiles: default
+2018-12-22 12:13:05.027 [main] INFO  o.s.w.c.s.GenericWebApplicationContext
+                -Refreshing org.springframework.web.context.support.GenericWebApplicationContext@43b4fe19: startup date [Sat Dec 22 12:13:05 CST 2018]; root of context hierarchy
+2018-12-22 12:13:07.121 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:13:07.486 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                -Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@43b4fe19: startup date [Sat Dec 22 12:13:05 CST 2018]; root of context hierarchy
+2018-12-22 12:13:07.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-22 12:13:07.618 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-22 12:13:07.663 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:13:07.665 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:13:07.960 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -Started Springboot03LoggingApplicationTests in 3.485 seconds (JVM running for 5.714)
+2018-12-22 12:13:08.178 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -这是info日志...
+2018-12-22 12:13:08.179 [main] WARN  c.l.Springboot03LoggingApplicationTests
+                -这是warn日志...
+2018-12-22 12:13:08.179 [main] ERROR c.l.Springboot03LoggingApplicationTests
+                -这是error日志...
+2018-12-22 12:13:08.188 [Thread-3] INFO  o.s.w.c.s.GenericWebApplicationContext
+                -Closing org.springframework.web.context.support.GenericWebApplicationContext@43b4fe19: startup date [Sat Dec 22 12:13:05 CST 2018]; root of context hierarchy
+2018-12-22 12:19:26.055 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.limp.Springboot03LoggingApplicationTests], using SpringBootContextLoader
+2018-12-22 12:19:26.071 [main] INFO  o.s.t.c.s.AbstractContextLoader
+                -Could not detect default resource locations for test class [com.limp.Springboot03LoggingApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-22 12:19:26.072 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                -Could not detect default configuration classes for test class [com.limp.Springboot03LoggingApplicationTests]: Springboot03LoggingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-22 12:19:26.313 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Found @SpringBootConfiguration com.limp.Springboot03LoggingApplication for test class com.limp.Springboot03LoggingApplicationTests
+2018-12-22 12:19:26.668 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-22 12:19:26.693 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@57abad67, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@550a1967, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a640157, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52851b44, org.springframework.test.context.support.DirtiesContextTestExecutionListener@584f54e6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d8bafa9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@576f63f6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2dca0d64, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@f80945f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ff684e1]
+2018-12-22 12:19:27.647 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -Starting Springboot03LoggingApplicationTests on DESKTOP-PO54VO9 with PID 6644 (started by zzh in E:\githup\springboot-demos\springboot-03-logging)
+2018-12-22 12:19:27.649 [main] DEBUG c.l.Springboot03LoggingApplicationTests
+                -Running with Spring Boot v2.0.7.RELEASE, Spring v5.0.11.RELEASE
+2018-12-22 12:19:27.656 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -No active profile set, falling back to default profiles: default
+2018-12-22 12:19:27.758 [main] INFO  o.s.w.c.s.GenericWebApplicationContext
+                -Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6e0ff644: startup date [Sat Dec 22 12:19:27 CST 2018]; root of context hierarchy
+2018-12-22 12:19:29.519 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:19:29.763 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                -Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6e0ff644: startup date [Sat Dec 22 12:19:27 CST 2018]; root of context hierarchy
+2018-12-22 12:19:29.898 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-22 12:19:29.900 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-22 12:19:29.940 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:19:29.942 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 12:19:30.216 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -Started Springboot03LoggingApplicationTests in 3.384 seconds (JVM running for 5.466)
+2018-12-22 12:19:30.402 [main] DEBUG c.l.Springboot03LoggingApplicationTests
+                -这是debug日志...
+2018-12-22 12:19:30.403 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -这是info日志...
+2018-12-22 12:19:30.403 [main] WARN  c.l.Springboot03LoggingApplicationTests
+                -这是warn日志...
+2018-12-22 12:19:30.403 [main] ERROR c.l.Springboot03LoggingApplicationTests
+                -这是error日志...
+2018-12-22 12:19:30.410 [Thread-3] INFO  o.s.w.c.s.GenericWebApplicationContext
+                -Closing org.springframework.web.context.support.GenericWebApplicationContext@6e0ff644: startup date [Sat Dec 22 12:19:27 CST 2018]; root of context hierarchy
+2018-12-22 13:12:17.552 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.limp.Springboot03LoggingApplicationTests], using SpringBootContextLoader
+2018-12-22 13:12:17.567 [main] INFO  o.s.t.c.s.AbstractContextLoader
+                -Could not detect default resource locations for test class [com.limp.Springboot03LoggingApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-12-22 13:12:17.569 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                -Could not detect default configuration classes for test class [com.limp.Springboot03LoggingApplicationTests]: Springboot03LoggingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-12-22 13:12:17.842 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Found @SpringBootConfiguration com.limp.Springboot03LoggingApplication for test class com.limp.Springboot03LoggingApplicationTests
+2018-12-22 13:12:18.289 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-12-22 13:12:18.336 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                -Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@57abad67, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@550a1967, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2a640157, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@52851b44, org.springframework.test.context.support.DirtiesContextTestExecutionListener@584f54e6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d8bafa9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@576f63f6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2dca0d64, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@f80945f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ff684e1]
+2018-12-22 13:12:19.471 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -Starting Springboot03LoggingApplicationTests on DESKTOP-PO54VO9 with PID 17616 (started by zzh in E:\githup\springboot-demos\springboot-03-logging)
+2018-12-22 13:12:19.472 [main] DEBUG c.l.Springboot03LoggingApplicationTests
+                -Running with Spring Boot v2.0.7.RELEASE, Spring v5.0.11.RELEASE
+2018-12-22 13:12:19.476 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -No active profile set, falling back to default profiles: default
+2018-12-22 13:12:19.601 [main] INFO  o.s.w.c.s.GenericWebApplicationContext
+                -Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5949eba8: startup date [Sat Dec 22 13:12:19 CST 2018]; root of context hierarchy
+2018-12-22 13:12:21.688 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 13:12:22.050 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter
+                -Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5949eba8: startup date [Sat Dec 22 13:12:19 CST 2018]; root of context hierarchy
+2018-12-22 13:12:22.250 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-22 13:12:22.253 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping
+                -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-22 13:12:22.330 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 13:12:22.330 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping
+                -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-22 13:12:22.656 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -Started Springboot03LoggingApplicationTests in 4.17 seconds (JVM running for 6.587)
+2018-12-22 13:12:22.961 [main] DEBUG c.l.Springboot03LoggingApplicationTests
+                -这是debug日志...
+2018-12-22 13:12:22.962 [main] INFO  c.l.Springboot03LoggingApplicationTests
+                -这是info日志...
+2018-12-22 13:12:22.962 [main] WARN  c.l.Springboot03LoggingApplicationTests
+                -这是warn日志...
+2018-12-22 13:12:22.963 [main] ERROR c.l.Springboot03LoggingApplicationTests
+                -这是error日志...
+2018-12-22 13:12:22.971 [Thread-3] INFO  o.s.w.c.s.GenericWebApplicationContext
+                -Closing org.springframework.web.context.support.GenericWebApplicationContext@5949eba8: startup date [Sat Dec 22 13:12:19 CST 2018]; root of context hierarchy

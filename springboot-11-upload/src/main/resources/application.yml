@@ -1,0 +1,29 @@
+spring:
+#\u89C6\u56FE\u5C42\u63A7\u5236
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+  static-path-pattern: /static/**
+
+#thymeleaf start
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+    servlet:
+      content-type: text/html
+
+    #\u5F00\u53D1\u65F6\u5173\u95ED\u7F13\u5B58,\u4E0D\u7136\u6CA1\u6CD5\u770B\u5230\u5B9E\u65F6\u9875\u9762
+
+    #\u9650\u5236\u6587\u4EF6\u4E0A\u4F20\u5927\u5C0F
+  servlet:
+    multipart:
+      max-file-size: 1000KB
+      max-request-size: 1000KB
+
+
+logging:
+  level:
+    com.*: debug
+    org.*: debug

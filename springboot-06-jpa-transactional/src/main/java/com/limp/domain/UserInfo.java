@@ -9,8 +9,7 @@ import javax.persistence.Table;
 @Entity//告诉JPA这是一个实体类（和数据表映射的类）
 @Table(name = "lp_users") //@Table来指定和哪个数据表对应;如果省略默认表名就是user；
 public class UserInfo  {
-    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)//自增主键
+    @Id//    @GeneratedValue(strategy = GenerationType.IDENTITY)//自增主键
     @Column(name = "ID")
     private String id;
     @Column(name = "ACCOUNT",length = 60) //这是和数据表对应的一个列
@@ -39,53 +38,7 @@ public class UserInfo  {
     @Column(name = "ISBINDMAC")
     private Short isbindmac;
 
-    /*private Date lasttime;
 
-    private String lastip;
-
-    private String lastmac;
-
-    private Short logincount;
-
-    private Date createdate;
-
-    private Date updatetime;
-
-    private Short state;
-
-    private String icn;
-
-    private String unitcode;
-
-    private String phone;
-
-    private Short utype;
-
-    private Short uversion;
-
-    private String keypath;
-
-    private Date expiredate;
-
-    private String email;
-
-    private String conaccount;
-
-    private String apptype;
-
-    private String rc1;
-
-    private String rc2;
-
-    private Short rc3;
-
-    private String optaccount;
-
-    private String rc4;
-
-    private String rc5;
-
-    private Date rc6;*/
 
     private static final long serialVersionUID = 1L;
 
