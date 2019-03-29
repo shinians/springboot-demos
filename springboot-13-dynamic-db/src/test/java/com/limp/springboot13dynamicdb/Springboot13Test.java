@@ -92,6 +92,9 @@ public class Springboot13Test {
 		String sqlOne = "select * from test where id = ?";
 	       //根据id获取单个对象
 	      TestPo testPo = jdbcTemplate.queryForObject(sqlOne, new MyRowMapper(), "C5828944E72D48B5B4BABCA2F7844EFA");
+
+	      //！！！！这种用到比较多
+		   List<Map<String, Object>> testListMap = jdbcTemplate. queryForList(sqlOne,"C5828944E72D48B5B4BABCA2F7844EFA");
 		   System.out.println("获取单个对象");
 		   System.out.println(testPo);
 
