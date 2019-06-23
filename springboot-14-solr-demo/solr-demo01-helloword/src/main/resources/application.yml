@@ -1,0 +1,7 @@
+server:
+  port: 9991
+
+spring:
+  data:
+    solr:
+      host: http://192.168.26.160:8983/solr/meta_db
